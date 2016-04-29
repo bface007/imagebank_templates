@@ -1,0 +1,39 @@
+header{
+  background-color: $black;
+  padding: 10px 0;
+  color: #a1a1a1;
+  overflow: hidden;
+  font-size: 12px;
+
+  .fa{
+    margin-right: 5px;
+  }
+
+  button{
+    padding: 0;
+    border: none;
+    background: none;
+    margin: 0 10px;
+  }
+
+  .contact-lang{
+    font-weight: 700;
+    .tel,
+    .lang{
+      float: left;
+      position: relative;
+
+      #lang{
+        list-style: none;
+        padding-left: 10px;
+        position: absolute;
+        z-index: 1;
+        background: $black;
+      }
+    }
+  }
+  .login-buttons{
+    font-weight: 700;
+    color: $blue;
+  }
+}

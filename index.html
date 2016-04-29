@@ -27,35 +27,40 @@
 <header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 contact-lang">
                 <div class="tel">
-                    <i class="fa fa-phone"></i> +241 00 00 00
+                    <i class="fa fa-phone-square fa-lg"></i> +241 00 00 00
                 </div>
 
+                <!--lang buttons -->
                 <div class="lang">
                     <button type="button" data-toggle="collapse" data-target="#lang"><i class="fa fa-caret-down"></i> Français</button>
-                    <ul id="lang" class="collapse in">
+                    <ul id="lang" class="collapse">
                         <li>Français</li>
                         <li>English</li>
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-6 text-right">
-                <button type="button">S'identifier</button>
-                <button type="button">S'enregistrer</button>
+
+            <!-- login buttons -->
+            <div class="col-sm-6 text-right login-buttons">
+                <button type="button" class="sign-in">S'identifier</button>
+                <button type="button" class="sign-up">S'enregistrer</button>
             </div>
         </div>
-        <div><img src="holder.js/215x34" alt="Logo"/></div>
     </div>
 </header>
 
 <!-- ============================
          search form
 ============================== -->
-<div id="home_search_form" class="text-center">
-    <div class="container">
+<div id="home_search_form" style="background-image: url('img/banner.jpg')">
+    <!-- logo -->
+    <a href="#" class="logo">IMAGE <i>BANK</i></a>
+    <!-- end logo -->
+    <div class="container text-center">
         <div class="row">
-            <div class="col-sm-8 center-block">
+            <div id="search-form" class="center-block">
                 <input type="text" name="q" placeholder="Rechercher des images, des dessins et des vidéos"/>
                 <button type="button" class="fa fa-search fa-2x"></button>
             </div>
@@ -82,23 +87,23 @@
                     <div class="col-sm-6">
                         <h5>Category name</h5>
                         <div class="images">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
+                            <img src="img/car.jpg" alt="image">
+                            <img src="img/strawberries.jpg" alt="image">
+                            <img src="img/morses.jpg" alt="image">
+                            <img src="img/table.jpg" alt="image">
+                            <img src="img/strawberries.jpg" alt="image">
+                            <img src="img/morses.jpg" alt="image">
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <h5>Category name</h5>
                         <div class="images">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
+                            <img src="img/car.jpg" alt="image">
+                            <img src="img/strawberries.jpg" alt="image">
+                            <img src="img/morses.jpg" alt="image">
+                            <img src="img/table.jpg" alt="image">
+                            <img src="img/strawberries.jpg" alt="image">
+                            <img src="img/morses.jpg" alt="image">
                         </div>
                     </div>
                 </div>
@@ -106,47 +111,49 @@
                     <div class="col-sm-6">
                         <h5>Category name</h5>
                         <div class="images">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
+                            <img src="img/car.jpg" alt="image">
+                            <img src="img/strawberries.jpg" alt="image">
+                            <img src="img/morses.jpg" alt="image">
+                            <img src="img/table.jpg" alt="image">
+                            <img src="img/strawberries.jpg" alt="image">
+                            <img src="img/morses.jpg" alt="image">
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <h5>Category name</h5>
                         <div class="images">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
-                            <img src="holder.js/120x100" alt="image">
+                            <img src="img/car.jpg" alt="image">
+                            <img src="img/strawberries.jpg" alt="image">
+                            <img src="img/morses.jpg" alt="image">
+                            <img src="img/table.jpg" alt="image">
+                            <img src="img/strawberries.jpg" alt="image">
+                            <img src="img/morses.jpg" alt="image">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+
+            <!-- categories -->
+            <div class="col-sm-2 tags">
                 <h4>Toutes les catégories</h4>
-                <span class="category">maximus</span>
-                <span class="category">consequat</span>
-                <span class="category">consectetur</span>
-                <span class="category">fringilla</span>
-                <span class="category">dictumst</span>
-                <span class="category">fringilla</span>
-                <span class="category">efficitur</span>
-                <span class="category">accumsan</span>
-                <span class="category">sollicitudin</span>
-                <span class="category">Curabitur</span>
-                <span class="category">fringilla</span>
-                <span class="category">dictumst</span>
-                <span class="category">efficitur</span>
-                <span class="category">lobortis</span>
-                <span class="category">imperdiet</span>
-                <span class="category">fringilla</span>
-                <span class="category">efficitur</span>
-                <span class="category">accumsan</span>
+                <a href="#" class="category">maximus</a>
+                <a href="#" class="category">consequat</a>
+                <a href="#" class="category">consectetur</a>
+                <a href="#" class="category">fringilla</a>
+                <a href="#" class="category">dictumst</a>
+                <a href="#" class="category">fringilla</a>
+                <a href="#" class="category">efficitur</a>
+                <a href="#" class="category">accumsan</a>
+                <a href="#" class="category">sollicitudin</a>
+                <a href="#" class="category">Curabitur</a>
+                <a href="#" class="category">fringilla</a>
+                <a href="#" class="category">dictumst</a>
+                <a href="#" class="category">efficitur</a>
+                <a href="#" class="category">lobortis</a>
+                <a href="#" class="category">imperdiet</a>
+                <a href="#" class="category">fringilla</a>
+                <a href="#" class="category">efficitur</a>
+                <a href="#" class="category">accumsan</a>
             </div>
         </div>
     </div>
@@ -162,25 +169,25 @@
             <div class="col-sm-3">
                 <a href="#">
                     <div class="h4">Sollicitudin</div>
-                    <img src="holder.js/220x200" alt="contributor">
+                    <img src="img/morses.jpg" alt="image">
                 </a>
             </div>
             <div class="col-sm-3">
                 <a href="#">
                     <div class="h4">Sollicitudin</div>
-                    <img src="holder.js/220x200" alt="contributor">
+                    <img src="img/car.jpg" alt="image">
                 </a>
             </div>
             <div class="col-sm-3">
                 <a href="#">
                     <div class="h4">Sollicitudin</div>
-                    <img src="holder.js/220x200" alt="contributor">
+                    <img src="img/table.jpg" alt="image">
                 </a>
             </div>
             <div class="col-sm-3">
                 <a href="#">
                     <div class="h4">Sollicitudin</div>
-                    <img src="holder.js/220x200" alt="contributor">
+                    <img src="img/strawberries.jpg" alt="image">
                 </a>
             </div>
         </div>
