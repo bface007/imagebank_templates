@@ -5,12 +5,13 @@ a:hover, a:focus { text-decoration: none; }
 .logo { display: block; font-weight: 700; padding: 5px; letter-spacing: 8px; text-align: center; border: solid 2px #eee; color: #eee; width: 215px; }
 .logo i { font-style: normal; color: #459bf3; }
 
-header { background-color: #393939; padding: 10px 0; color: #a1a1a1; overflow: hidden; font-size: 12px; }
+header { background-color: #393939; padding: 10px 0; color: #a1a1a1; font-size: 12px; }
 header .fa { margin-right: 5px; }
 header button { padding: 0; border: none; background: none; margin: 0 10px; }
 header .contact-lang { font-weight: 700; }
 header .contact-lang .tel, header .contact-lang .lang { float: left; position: relative; }
-header .contact-lang .tel #lang, header .contact-lang .lang #lang { list-style: none; padding-left: 10px; position: absolute; z-index: 1; background: #393939; }
+header .contact-lang .tel #lang, header .contact-lang .lang #lang { list-style: none; position: absolute; padding: 10px 10px; width: 150px; z-index: 2; background: #393939; }
+header .contact-lang .tel #lang li, header .contact-lang .lang #lang li { padding: 5px 15px; cursor: pointer; }
 header .login-buttons { font-weight: 700; color: #459bf3; }
 
 body.home_page #home_search_form { padding: 150px 0; background-position: center center; background-repeat: no-repeat; background-size: cover; position: relative; }
